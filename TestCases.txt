@@ -1,0 +1,92 @@
+1. Test Case: Create new order
+
+   Description:	As Beach T-Shirts Co., I should be able to call a method to create an order for a specific number of t-shirts.
+
+   Desired Outcome: I should be able to do in Remix wothout getting an error.
+
+   Actual Outcome: On testing, I was able to place the order.
+
+   Result: Pass
+
+2. Test Case: Accepting Order
+
+   Description:	As Beach T-Shirts Co., I should not be able to call a method to accept the order.
+
+   Desired Outcome: The contract should display in the console that Beach T-Shirts can't accept orders.
+
+   Actual Outcome: On testing, I was able to place the order only using the Threads Inc account and I was getting the corresponding message if I try to accept the order as Beach T-Shirts Co.
+
+   Result: Pass
+
+2. Test Case: Accepting Order
+
+   Description:	As Beach T-Shirts Co., I should not be able to call a method to accept the order.
+
+   Desired Outcome: The contract should display in the console that Beach T-Shirts can't accept orders.
+
+   Actual Outcome: On testing, I was able to place the order only using the Threads Inc account and I was getting the corresponding message if I try to accept the order as Beach T-Shirts Co.
+
+   Result: Pass
+
+3. Test Case: Making Payment
+
+   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
+
+   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
+
+   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
+
+   Result: Pass
+
+3. Test Case: Making Payment
+
+   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
+
+   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
+
+   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
+
+   Result: Pass
+
+
+4. Test Case: Making Payment
+
+   Description:	Beach T-Shirts Co. should be able to call a method to make payment only if the Threads Inc have accpeted the order.
+
+   Desired Outcome: The contract should display a message in the console like "Let the offer be accepted first", if Beach T-Shirts try to call the method to make the payment before Threads Inc accpeted the offer.
+
+   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account only after Threads Inc accepted the offer.
+   
+   Result: Pass
+
+5. Test Case: Checking order status
+
+   Description:	Beach T-Shirts Co. should be able to call a method to check if the order has been completed or not.
+
+   Desired Outcome: If the order has been completed, the method should display "Order completed" or otherwise it should display "Pending".
+
+   Actual Outcome: As desired
+   
+   Result: Pass
+
+
+6. Test Case: Checking payment status
+
+   Description:	Threads Inc. should be able to call a method to check if the payment has been completed or not.
+
+   Desired Outcome: If the payment has been accpeted, the method should display "Payment completed" or otherwise it should display "Pending".
+
+   Actual Outcome: As desired
+   
+   Result: Pass
+
+
+7. Test Case: Input validation for quantity
+
+   Description:	Only integers should be accepted as the quantity of t-shirts.
+
+   Desired: Contract should ask for integer value if string provided.
+
+   Actual Outcome: Error
+
+   Result: Failed
