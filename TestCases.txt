@@ -18,7 +18,7 @@
 
    Result: Pass
 
-2. Test Case: Accepting Order
+3. Test Case: Accepting Order
 
    Description:	As Beach T-Shirts Co., I should not be able to call a method to accept the order.
 
@@ -28,28 +28,28 @@
 
    Result: Pass
 
-3. Test Case: Making Payment
-
-   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
-
-   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
-
-   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
-
-   Result: Pass
-
-3. Test Case: Making Payment
-
-   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
-
-   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
-
-   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
-
-   Result: Pass
-
-
 4. Test Case: Making Payment
+
+   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
+
+   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
+
+   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
+
+   Result: Pass
+
+5. Test Case: Making Payment
+
+   Description:	Only Beach T-Shirts Co. should be able to call a method to make payment.
+
+   Desired Outcome: The contract should display in the console that Beach Threads Inc can't make payment for this order.
+
+   Actual Outcome: On testing, I was able to make the payment only using the Beach T-Shirts Co. account and I was getting the corresponding message if I try to the payment as Threads Inc.
+
+   Result: Pass
+
+
+6. Test Case: Making Payment
 
    Description:	Beach T-Shirts Co. should be able to call a method to make payment only if the Threads Inc have accpeted the order.
 
@@ -59,7 +59,7 @@
    
    Result: Pass
 
-5. Test Case: Checking order status
+7. Test Case: Checking order status
 
    Description:	Beach T-Shirts Co. should be able to call a method to check if the order has been completed or not.
 
@@ -70,7 +70,7 @@
    Result: Pass
 
 
-6. Test Case: Checking payment status
+8. Test Case: Checking payment status
 
    Description:	Threads Inc. should be able to call a method to check if the payment has been completed or not.
 
@@ -81,7 +81,7 @@
    Result: Pass
 
 
-7. Test Case: Input validation for quantity
+9. Test Case: Input validation for quantity
 
    Description:	Only integers should be accepted as the quantity of t-shirts.
 
